@@ -73,6 +73,8 @@ function TwoToTen() {
             const decimalNumber = parseInt(value, 10).toString(2);
             setDecimal(decimalNumber.toString());
 
+            
+
         }
 
         
