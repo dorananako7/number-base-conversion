@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/dorananako7/number-base-conversion/static/js/main.1c3661d1.js",
-    "index.html": "/dorananako7/number-base-conversion/index.html",
-    "main.1c3661d1.js.map": "/dorananako7/number-base-conversion/static/js/main.1c3661d1.js.map"
+    "main.js": "/number-base-conversion/static/js/main.1c3661d1.js",
+    "index.html": "/number-base-conversion/index.html",
+    "main.1c3661d1.js.map": "/number-base-conversion/static/js/main.1c3661d1.js.map"
   },
   "entrypoints": [
     "static/js/main.1c3661d1.js"
