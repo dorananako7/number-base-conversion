@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/number-base-conversion/static/js/main.f3928906.js",
-    "index.html": "/number-base-conversion/index.html",
-    "main.f3928906.js.map": "/number-base-conversion/static/js/main.f3928906.js.map"
+    "main.js": "/dorananako7/number-base-conversion/static/js/main.1c3661d1.js",
+    "index.html": "/dorananako7/number-base-conversion/index.html",
+    "main.1c3661d1.js.map": "/dorananako7/number-base-conversion/static/js/main.1c3661d1.js.map"
   },
   "entrypoints": [
-    "static/js/main.f3928906.js"
+    "static/js/main.1c3661d1.js"
   ]
 }
