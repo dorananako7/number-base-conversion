@@ -54,6 +54,9 @@ function BaseConverter() {
             min="2"
             max="36"
             placeholder="変換元の基数"
+            style={{
+                width: '95px',
+            }}
         />
         {/* 変換先の基数 */}
         <input
@@ -63,6 +66,9 @@ function BaseConverter() {
             min="2"
             max="36"
             placeholder="変換先の基数"
+              style={{
+                width: '95px',
+            }}
         />
         {/* 変換元の値 */}
         <input 
