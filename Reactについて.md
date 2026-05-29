@@ -75,7 +75,34 @@ Reactのコンポーネントは2種類存在する。
 # index.jsについて
 index.jsはReactアプリケーションのエントリーポイントとして機能するファイルである。Reactアプリケーションでは、通常、index.jsからReactコンポーネントをindex.htmlファイルの<div id="root">要素にレンダリングするためのコードを記述する。
 
+# Reactのwebアプリケーションをgithub pagesに公開する方法
+以下を実行する。
+```
+npm install gh-pages --save-dev
+```
+インストールが終了したら、packege.jsonに設定を書き込む。書き込む箇所は3つである。
+```
+{
+  "name": "number-base-conversion",
+  "version": "0.1.0",
+  "homepage": "https://<あなたのGitHubのユーザー名>.github.io/<リポジトリ名>",
+  // ... (続き)
+}
+"scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",     // ◀ これを追加
+    "deploy": "gh-pages -d build"     // ◀ これを追加
+  },
+  ```
+  その後、githubにファイルをpushする。
 
+  最後に、ターミナルで以下のコマンドを実行する。
+  ```
+  npm run deploy
+  ```
 
 
 
